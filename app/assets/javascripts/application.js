@@ -5,4 +5,6 @@
 //= require popper
 //= require bootstrap-sprockets
 
+//= require knockout
+
 //= require_tree .
