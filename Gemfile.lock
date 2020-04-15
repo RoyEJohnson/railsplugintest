@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/openstax/pattern-library.git
+  revision: ec6c7009d407b80f4b80a1191cd078dacea1efb2
+  branch: master
+  specs:
+    pattern-library (1.1.17)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -223,6 +230,7 @@ DEPENDENCIES
   jquery-rails
   knockoutjs-rails
   listen (>= 3.0.5, < 3.2)
+  pattern-library!
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.2)
   sass-rails (~> 5.0)

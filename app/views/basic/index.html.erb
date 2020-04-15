@@ -1,28 +1,22 @@
-<div class="container mt-4">
-  <div class="row">
-    <div class="col-xs-12 col-sm-8 offset-sm-2">
-      <%= simple_form_for :basic, url: root_path, method: "GET"  do |f| %>
-        <%= f.input :name, required: false, label: 'Name' %>
-        <%= f.input :phone, required: false,
-                    :input_html => {
-                      :type => "tel",
-                      :id => "phoneX"
-                    } %>
-        <%= f.select(
-            'title',
-            [
-                ['Calculus volume 1', 'Type A' ],
-                ['Calculus volume 2', 'Type B' ],
-                ['Calculus volume 3', 'Type C' ],
-                ['University Physics', 'Type D'],
-                ['College Physics', 'Type E']
-            ],
-            {},
-            { :multiple => true, :size => 5},
-        )%>
+  <%= simple_form_for :basic, url: root_path, method: "GET"  do |f| %>
+    <%= f.input :name, required: false, label: 'Name' %>
+    <%= f.input :phone, required: false,
+                :input_html => {
+                  :type => "tel",
+                  :id => "phoneX"
+                } %>
+    <%= f.select(
+        'title',
+        [
+            ['Calculus volume 1', 'Type A' ],
+            ['Calculus volume 2', 'Type B' ],
+            ['Calculus volume 3', 'Type C' ],
+            ['University Physics', 'Type D'],
+            ['College Physics', 'Type E']
+        ],
+        {},
+        { :multiple => true, :size => 5},
+    )%>
 
-        <%= f.submit "Search", class: "btn btn-primary" %>
-      <% end %>
-    </div>
-  </div>
-</div>
+    <%= f.submit "Search", class: "btn btn-primary" %>
+  <% end %>

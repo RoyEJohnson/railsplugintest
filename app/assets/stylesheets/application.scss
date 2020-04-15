@@ -1,8 +1,36 @@
-@import "bootstrap";
+// @import "bootstrap";
 @import "intlTelInput";
+@import "pattern-library/headers";
+@import 'pattern-library/elements/document';
+@import 'pattern-library/elements/typography';
+@import "multiselect";
 
 .iti__flag {background-image: url(asset_path("flags.png"));}
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {background-image: url(asset_path("flags@2x.png"));}
+}
+
+form {
+    @extend %form;
+
+    input {
+        font-size: inherit;
+        height: $form-element-height;
+    }
+
+    .input {
+        align-items: center;
+        display: grid;
+        grid-auto-columns: min-content;
+        grid-auto-flow: column;
+        grid-column-gap: $normal-margin;
+    }
+}
+
+[type="submit"] {
+    @extend %button;
+    @extend %primary;
+
+    justify-self: start;
 }

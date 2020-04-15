@@ -62,3 +62,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Knockout for embedded widgets
 gem 'knockoutjs-rails'
+
+gem 'pattern-library', git: 'https://github.com/openstax/pattern-library.git', branch: 'master'
