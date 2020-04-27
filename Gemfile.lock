@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/openstax/pattern-library.git
-  revision: da817791be03182c5871d7530fd44e66627b367d
+  revision: 0e3262619d94d776f1597bca06821dbc91860fef
   branch: add-multiselect-styling
   specs:
-    pattern-library (1.1.17)
+    pattern-library (1.1.18)
 
 GEM
   remote: https://rubygems.org/
