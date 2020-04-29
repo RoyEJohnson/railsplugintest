@@ -5,18 +5,32 @@
                   :type => "tel",
                   :id => "phoneX"
                 } %>
-    <%= f.select(
-        'title',
-        [
-            ['Calculus volume 1', 'Type A' ],
-            ['Calculus volume 2', 'Type B' ],
-            ['Calculus volume 3', 'Type C' ],
-            ['University Physics', 'Type D'],
-            ['College Physics', 'Type E']
-        ],
-        {},
-        { :multiple => true, :size => 5},
-    )%>
+    <div>
+        <label>Books?</label>
+        <%= f.select(
+            'title',
+            [
+                ['Calculus volume 1', 'Type A' ],
+                ['Calculus volume 2', 'Type B' ],
+                ['Calculus volume 3', 'Type C' ],
+                ['University Physics', 'Type D'],
+                ['College Physics', 'Type E'],
+                ['Precalculus', 'Type F' ],
+                ['Astronomy', 'Type G' ],
+                ['Biology 2e', 'Type H' ],
+                ['Microeconomics', 'Type I'],
+                ['US History', 'Type J'],
+                ['Calculus volume 1', 'Type K' ],
+                ['Calculus volume 2', 'Type L' ],
+                ['Calculus volume 3', 'Type M' ],
+                ['University Physics', 'Type N'],
+                ['College Physics', 'Type O'],
+
+            ],
+            {},
+            { :multiple => true, :size => 5, :dataPlaceholder => 'Pick some books'},
+        )%>
+    </div>
 
     <%= f.submit "Search", class: "btn btn-primary" %>
   <% end %>

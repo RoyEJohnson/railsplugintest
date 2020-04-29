@@ -64,3 +64,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'knockoutjs-rails'
 
 gem 'pattern-library', git: 'https://github.com/openstax/pattern-library.git', branch: 'add-multiselect-styling'
+
+gem "font-awesome-sass", "~> 5.12"
