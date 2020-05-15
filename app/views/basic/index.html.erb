@@ -8,56 +8,77 @@
     <div>
         <label>Books?</label>
         <select multiple data-placeholder="Select some books" id="basic_title">
-            <option value="prealgebra-2e" data-groups="Math">Prealgebra 2e</option>
-            <option value="prealgebra" data-groups="Math">Prealgebra</option>
-            <option value="elementary-algebra-2e" data-groups="Math">Elementary Algebra 2e</option>
-            <option value="elementary-algebra" data-groups="Math">Elementary Algebra</option>
-            <option value="intermediate-algebra" data-groups="Math">Intermediate Algebra</option>
-            <option value="college-algebra" data-groups="Math">College Algebra</option>
-            <option value="algebra-and-trigonometry" data-groups="Math">Algebra and Trigonometry</option>
-            <option value="precalculus" data-groups="Math">Precalculus</option>
-            <option value="calculus-volume-1" data-groups="Math">Calculus Volume 1</option>
-            <option value="calculus-volume-2" data-groups="Math">Calculus Volume 2</option>
-            <option value="calculus-volume-3" data-groups="Math">Calculus Volume 3</option>
-            <option value="introductory-statistics" data-groups="Math">Introductory Statistics</option>
-            <option value="anatomy-and-physiology" data-groups="Science">Anatomy and Physiology</option>
-            <option value="astronomy" data-groups="Science">Astronomy</option>
-            <option value="biology-2e" data-groups="Science">Biology 2e</option>
-            <option value="concepts-biology" data-groups="Science">Concepts of Biology</option>
-            <option value="microbiology" data-groups="Science">Microbiology</option>
-            <option value="chemistry-2e" data-groups="Science">Chemistry 2e</option>
-            <option value="chemistry-atoms-first-2e" data-groups="Science">Chemistry: Atoms First 2e</option>
-            <option value="college-physics" data-groups="Science">College Physics</option>
-            <option value="university-physics-volume-1" data-groups="Science">University Physics Volume 1</option>
-            <option value="university-physics-volume-2" data-groups="Science">University Physics Volume 2</option>
-            <option value="university-physics-volume-3" data-groups="Science">University Physics Volume 3</option>
-            <option value="biology-ap-courses" data-groups="Science,High School">Biology for AP® Courses</option>
-            <option value="college-physics-ap-courses" data-groups="Science,High School">The AP Physics Collection</option>
-            <option value="physics" data-groups="Science,High School">Physics</option>
-            <option value="fizyka-dla-szkół-wyższych-tom-1" data-groups="Science">Fizyka dla szkół wyższych. Tom 1</option>
-            <option value="fizyka-dla-szkół-wyższych-tom-2" data-groups="Science">Fizyka dla szkół wyższych. Tom 2</option>
-            <option value="fizyka-dla-szkół-wyższych-tom-3" data-groups="Science">Fizyka dla szkół wyższych. Tom 3</option>
-            <option value="american-government-2e" data-groups="Social Sciences">American Government 2e</option>
-            <option value="principles-economics-2e" data-groups="Social Sciences">Principles of Economics 2e</option>
-            <option value="principles-macroeconomics-2e" data-groups="Social Sciences">Principles of Macroeconomics 2e</option>
-            <option value="principles-microeconomics-2e" data-groups="Social Sciences">Principles of Microeconomics 2e</option>
-            <option value="psychology-2e" data-groups="Social Sciences">Psychology 2e</option>
-            <option value="psychology" data-groups="Social Sciences">Psychology</option>
-            <option value="introduction-sociology-2e" data-groups="Social Sciences">Introduction to Sociology 2e</option>
-            <option value="principles-macroeconomics-ap-courses-2e" data-groups="Social Sciences,High School">Principles of Macroeconomics for AP® Courses 2e</option>
-            <option value="principles-microeconomics-ap-courses-2e" data-groups="Social Sciences,High School">Principles of Microeconomics for AP® Courses 2e</option>
-            <option value="us-history" data-groups="Humanities">U.S. History</option>
-            <option value="introduction-business" data-groups="Business">Introduction to Business</option>
-            <option value="business-ethics" data-groups="Business">Business Ethics</option>
-            <option value="principles-financial-accounting" data-groups="Business">Principles of Accounting, Volume 1: Financial Accounting</option>
-            <option value="principles-managerial-accounting" data-groups="Business">Principles of Accounting, Volume 2: Managerial Accounting</option>
-            <option value="introductory-business-statistics" data-groups="Math,Business">Introductory Business Statistics</option>
-            <option value="principles-management" data-groups="Business">Principles of Management</option>
-            <option value="entrepreneurship" data-groups="Business">Entrepreneurship</option>
-            <option value="organizational-behavior" data-groups="Business">Organizational Behavior</option>
-            <option value="business-law-i-essentials" data-groups="Business,Essentials">Business Law I Essentials</option>
-            <option value="college-success" data-groups="College Success">College Success</option>
-            <option value="statistics" data-groups="Math,High School">Statistics</option>
+            <optgroup label="Math">
+                <option value="prealgebra-2e">Prealgebra 2e</option>
+                <option value="prealgebra">Prealgebra</option>
+                <option value="elementary-algebra-2e">Elementary Algebra 2e</option>
+                <option value="elementary-algebra">Elementary Algebra</option>
+                <option value="intermediate-algebra">Intermediate Algebra</option>
+                <option value="college-algebra">College Algebra</option>
+                <option value="algebra-and-trigonometry">Algebra and Trigonometry</option>
+                <option value="precalculus">Precalculus</option>
+                <option value="calculus-volume-1">Calculus Volume 1</option>
+                <option value="calculus-volume-2">Calculus Volume 2</option>
+                <option value="calculus-volume-3">Calculus Volume 3</option>
+                <option value="introductory-statistics">Introductory Statistics</option>
+                <option value="statistics">Statistics</option>
+                <option value="introductory-business-statistics">Introductory Business Statistics</option>
+            </optgroup>
+            <optgroup label="Science">
+                <option value="anatomy-and-physiology">Anatomy and Physiology</option>
+                <option value="astronomy">Astronomy</option>
+                <option value="biology-2e">Biology 2e</option>
+                <option value="concepts-biology">Concepts of Biology</option>
+                <option value="microbiology">Microbiology</option>
+                <option value="chemistry-2e">Chemistry 2e</option>
+                <option value="chemistry-atoms-first-2e">Chemistry: Atoms First 2e</option>
+                <option value="college-physics">College Physics</option>
+                <option value="university-physics-volume-1">University Physics Volume 1</option>
+                <option value="university-physics-volume-2">University Physics Volume 2</option>
+                <option value="university-physics-volume-3">University Physics Volume 3</option>
+                <option value="biology-ap-courses">Biology for AP® Courses</option>
+                <option value="college-physics-ap-courses">The AP Physics Collection</option>
+                <option value="physics">Physics</option>
+                <option value="fizyka-dla-szkół-wyższych-tom-1">Fizyka dla szkół wyższych. Tom 1</option>
+                <option value="fizyka-dla-szkół-wyższych-tom-2">Fizyka dla szkół wyższych. Tom 2</option>
+                <option value="fizyka-dla-szkół-wyższych-tom-3">Fizyka dla szkół wyższych. Tom 3</option>
+            </optgroup>
+            <optgroup label="Social Sciences">
+                <option value="american-government-2e">American Government 2e</option>
+                <option value="principles-economics-2e">Principles of Economics 2e</option>
+                <option value="principles-macroeconomics-2e">Principles of Macroeconomics 2e</option>
+                <option value="principles-microeconomics-2e">Principles of Microeconomics 2e</option>
+                <option value="psychology-2e">Psychology 2e</option>
+                <option value="psychology">Psychology</option>
+                <option value="introduction-sociology-2e">Introduction to Sociology 2e</option>
+                <option value="principles-macroeconomics-ap-courses-2e">Principles of Macroeconomics for AP® Courses 2e</option>
+                <option value="principles-microeconomics-ap-courses-2e">Principles of Microeconomics for AP® Courses 2e</option>
+            </optgroup>
+            <optgroup label="Humanities">
+                <option value="us-history">U.S. History</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option value="introduction-business">Introduction to Business</option>
+                <option value="business-ethics">Business Ethics</option>
+                <option value="principles-financial-accounting">Principles of Accounting, Volume 1: Financial Accounting</option>
+                <option value="principles-managerial-accounting">Principles of Accounting, Volume 2: Managerial Accounting</option>
+                <option value="introductory-business-statistics">Introductory Business Statistics</option>
+                <option value="principles-management">Principles of Management</option>
+                <option value="entrepreneurship">Entrepreneurship</option>
+                <option value="organizational-behavior">Organizational Behavior</option>
+                <option value="business-law-i-essentials">Business Law I Essentials</option>
+            </optgroup>
+            <optgroup label="College Success">
+                <option value="college-success">College Success</option>
+            </optgroup>
+            <optgroup label="High School">
+                <option value="statistics">Statistics</option>
+                <option value="biology-ap-courses">Biology for AP® Courses</option>
+                <option value="college-physics-ap-courses">The AP Physics Collection</option>
+                <option value="physics">Physics</option>
+                <option value="principles-macroeconomics-ap-courses-2e">Principles of Macroeconomics for AP® Courses 2e</option>
+                <option value="principles-microeconomics-ap-courses-2e">Principles of Microeconomics for AP® Courses 2e</option>
+            </optgroup>
         </select>
     </div>
 
